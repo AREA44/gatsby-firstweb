@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-blog-index-js",
+    "path": "/blog/",
+    "result": {"data":{"allMdx":{"nodes":[{"frontmatter":{"date":"July 25, 2021","title":"Yet Another Post"},"id":"0e2c760a-6136-5c1f-a7e3-51619eb4b6b4","slug":"yet-another-post/"},{"frontmatter":{"date":"July 24, 2021","title":"Another Post"},"id":"b06983d9-21ac-5373-bca0-513977f14ab6","slug":"another-post/"},{"frontmatter":{"date":"July 23, 2021","title":"My First Post"},"id":"7d48fc14-44d8-5ed3-8ad0-304bc8232692","slug":"my-first-post/"}]}},"pageContext":{}},
+    "staticQueryHashes": ["3159585216"]}
