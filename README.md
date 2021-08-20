@@ -8,13 +8,13 @@ Build a site with [`Gatsby`](https://www.gatsbyjs.com/).
 git clone https://github.com/AREA44/gatsby-ex
 cd gatsby-ex
 npm install
-npm develop
+npm run develop
 ```
 
 ## Public to GitHub page
 
 ```sh
-npm deploy
+npm run deploy
 ```
 
 ## License
