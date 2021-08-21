@@ -6,7 +6,8 @@
   "author": "AREA44",
   "keywords": [
     "gatsby",
-    "ex"
+    "gatsbyjs",
+    "gatsby-ex"
   ],
   "scripts": {
     "develop": "gatsby develop",
@@ -24,6 +25,7 @@
     "gatsby-plugin-sharp": "^3.12.0",
     "gatsby-source-filesystem": "^3.12.0",
     "gatsby-transformer-sharp": "^3.12.0",
+    "heic2any": "0.0.3",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   }
