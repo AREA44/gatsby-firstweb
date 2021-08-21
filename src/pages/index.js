@@ -9,7 +9,7 @@ const IndexPage = () => {
       <StaticImage
         alt="Clifford, a reddish-brown pitbull, dozing in a bean bag chair"
         src="../images/clifford.jpg"
-    />
+      />
     </Layout>
   )
 }
