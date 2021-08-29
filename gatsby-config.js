@@ -1,7 +1,7 @@
 module.exports = {
-  pathPrefix: "/gatsby-ex",
+  pathPrefix: "/gatsby-overview",
   siteMetadata: {
-    title: "Gatsby Ex",
+    title: "Gatsby Overview",
   },
   plugins: [
     "gatsby-plugin-image",
