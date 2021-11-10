@@ -8,7 +8,7 @@ updates:
     schedule:
       interval: "daily"
     labels:
-      - "github actions"
+      - "github actions dependencies"
       - "dependabot"
       
   - package-ecosystem: "npm"
