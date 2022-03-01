@@ -1,7 +1,7 @@
 module.exports = {
-  pathPrefix: "/gatsby-overview",
+  pathPrefix: "/gatsby-firstweb",
   siteMetadata: {
-    title: "Gatsby Overview",
+    title: "The First Gatsby Website",
   },
   plugins: [
     "gatsby-plugin-image",
