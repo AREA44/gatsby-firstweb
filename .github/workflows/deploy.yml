@@ -1,15 +1,14 @@
-name: Deploy Site
+name: Deploy
 
 on:
   push:
-    branches:
-      - main
+    branches: ['*']
   pull_request:
-    branches:
-      - main
+    branches: ['*']
 
 jobs:
   build:
+    name: Build
     runs-on: ubuntu-latest
     
     steps:
@@ -17,14 +16,15 @@ jobs:
         uses: actions/checkout@v2
         
       - name: Setup Node.js environment
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3.0.0
         with:
           node-version: '16.x'
         
-      - name: Install Dependencies & Build
-        run: |
-          npm install
-          npm run build
+      - name: Install dependencies
+        run: npm install
+      
+      - name: Run Gatsby
+        run: npm run build
         
       - name: Deploy to GitHub Pages
         if: github.event_name == 'push'
